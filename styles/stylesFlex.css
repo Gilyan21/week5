@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-size: 14px;
+    line-height: 1;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+#logo {
+    display: flex;
+    flex-basis: 8vw;
+    height: 10vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+
+    align-items: flex-end;
+    align-self: center;
+    background: url("../assets/logo.png") no-repeat;
+    background-size: 60%;
+
+}
+
+
+.nav {
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 8vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 10vh;
+    align-items: flex-end;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    list-style-type: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #25202F;
+}
+
+
+.menuItems {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Roboto;
+    color: #7E7F86;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+a.menuItems:hover {
+    color: black;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+a.menuItems:visited {
+    color: rgb(206, 103, 180);
+}
+
+
+.aboutSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.helloBlock {
+    /* Hello, Name Surname */
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10vh;
+    font-style: normal;
+    /* or 29px */
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #25202F;
+}
+
+.greetingText {
+    display: flex;
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #666666;
+}
+
+.userName {
+    display: flex;
+    margin-top: 2vh;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+h1.jobName {
+    display: flex;
+    margin-bottom: 5vh;
+    height: 2vh;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2vh;
+    color: #25202F;
+}
+
+.button {
+    display: flex;
+    margin-top: 2vh;
+    align-items: center;
+    justify-content: center;
+    width: 12vw;
+    height: 9vh;
+    border-radius: 10vh;
+    text-align: center;
+    background-color: #8643DC;
+    border: none;
+
+    font-family: "Red Hat Display", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 5vh;
+}
+
+.button:hover {
+    color: black;
+}
+
+.userImage {
+    display: flex;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-content: space-around;
+}
+
+.allProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-basis: 70px;
+    height: 24px;
+    align-content: flex-start;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+}
+
+.titleUnderline {
+    /* Rectangle 7 */
+    display: flex;
+    width: 50px;
+    height: 2px;
+
+    background: #8643DC;
+}
+
+.AllProjectsHeader {
+    display: flex;
+    height: 50px;
+    flex: 5 0 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #25202F;
+}
+
+.exploreMore {
+    /* Explore More */
+    display: flex;
+    flex: 1 0 3px;
+    margin-left: 5px;
+    height: 32px;
+    justify-content: end;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+    text-decoration-line: underline;
+    color: #25202F;
+}
+
+.exploreMore:hover {
+    color: #8643DC;
+}
+
+#portfolioArrow {
+    display: flex;
+    flex: 0 0 4px;
+    margin-right: 5vw;
+    padding-left: 10px;
+    justify-content: start;
+    width: 24px;
+    height: 24px;
+}
+
+.portfolioItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.titleWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 4vh;
+    flex: 0 0 auto;
+}
+
+.disclaimerWrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.ContactFormDisclaimer {
+    /* Let me know if you want to talk about a potential collaboration. I'm available for freelance work. */
+    display: flex;
+    width: 511px;
+    height: 156px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+
+    color: #21232D;
+}
+
+#email {
+    /* адрес email */
+    display: flex;
+    width: 223px;
+    height: 28px;
+    margin-right: 2vw;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #8643DC;
+}
+
+#email:hover {
+    color: #21232D;
+}
+
+input.clientsDetails {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    height: 44px;
+
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    border: 0;
+    border-bottom: 1px solid #7E7F86;
+}
+
+.saveContacts {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+}
+
+.attachments {
+    /* Group 21 */
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 13vw;
+    flex: 1 0 10px;
+    width: 64px;
+    height: 30px;
+}
+
+.clientsDetails:focus {
+    background: #DAD2E3;
+}
+
+.socialMediaDisclaimer {
+    /* Let’s be Friends */
+    display: flex;
+    flex-basis: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    left: 591px;
+    top: 2050px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color: #21232D;
+}
+
+.socialNetIcon {
+    padding-inline: 40vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-self: center;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#SocialNet1 {
+    display: flex;
+    flex: 0 0 auto;
+    width: max-content;
+}
+
+#SocialNet2 {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+#SocialNet3 {
+    display: flex;
+    flex: 0 0 auto;
+}

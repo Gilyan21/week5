@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="stylesheet" href="styles/Normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stylesFlex.css">
+</head>
+
+<body>
+<header>
+  <!-- логотип -->
+    <div id="logo"></div> 
+    <!-- Вложила nav в header -->
+    <nav>
+      <ul class="nav">
+        <li><a class="menuItems" href="">About</a></li>
+        <li><a class="menuItems" href="">&nbsp;&nbsp;Projects&nbsp;&nbsp;</a></li>
+        <li><a class="menuItems" href="">Contacts</a></li>
+      </ul>
+    </nav>  
+</header>
+<main>
+  <section class="aboutSection">
+    <!-- приветствие и имя владельца -->
+    <div class="helloBlock">
+      <span class="greetingText">Hello,</span>
+      <span class="userName">Adam Jacob</span>
+    <!-- описание рода занятий -->
+    <h1 class="jobName">Aspiring web developer</h1>
+    <button type="button" class="button">Let's talk</button>
+  </div>
+  <!-- фото владельца -->
+    <div class="userImage">
+      <img src="assets/userPic.svg" alt="user-image">
+  </div>
+</section>
+
+  <!-- блок портфолио -->
+<section class="portfolio">
+  <!-- обертка для названия секции -->
+    <div class="titleWrapper">
+      <h2 class="sectionTitle">Portfolio</h2>
+      <span class="titleUnderline"></span>
+    </div>
+    <div class="allProjects">
+    <p class="AllProjectsHeader">All projects</p>
+      <!-- ссылка на страницу с проектами -->
+      <a class="exploreMore" href="#">Explore More</a>
+      <img id="portfolioArrow" src="assets/rightArrow.svg" alt="arrow">
+    </div>
+
+      <!-- фото проектов -->
+    <div class="portfolioItems">
+      <img src="assets/portfolioPicture1.svg" alt="portfolio__item1">
+      <img src="assets/portfolioPicture2.svg" alt="portfolio__item2">
+    </div>
+</section>
+
+<section class="contactSection">
+  <!-- обертка для названия секции -->
+  <div class="titleWrapper">
+    <h2 class="sectionTitle">Contact me</h2>
+    <span class="titleUnderline"></span>
+  </div>
+  <div class="disclaimerWrapper">
+    <span class="ContactFormDisclaimer">Let me know if you want to talk about a potential collaboration. I'm available for freelance work.</span>
+    <!-- адрес почты с mailto  -->
+    <a id="email" href="mailto:example@mail.ru">example@mail.ru</a>
+  </div>
+    <!-- форма для связи с владельцем сайта -->
+    <form>
+      <input type="text" class="clientsDetails" placeholder="What's your name?">
+      <input type="email" class="clientsDetails" placeholder="Your email">
+      <input type="text" class="clientsDetails" placeholder="Tell me about your project">
+    </form>
+    <!-- возможность вложить файлы (не работает) -->
+    <div class="saveContacts">
+    <button type="button" class="button">Get a quote</button>
+    <div class="attachments">
+      <img id="clipIcon" src="assets/clipIcon.svg" alt="clip-icon">
+      <img id="attachmentsRightArrow" src="assets/attachmentsRightArrow.svg" alt="righ-arrow">
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <!-- связаться в соц.сетях -->
+    <p class="socialMediaDisclaimer">Let's be Friends</p>
+    <span class="socialNetIcon">
+      <img id="SocialNet1" src="assets/SocialNet1.svg" alt="Social Media Icon">
+      <img id="SocialNet2" src="assets/SocialNet2.svg" alt="Social Media Icon">
+      <img id="SocialNet3" src="assets/SocialNet3.svg" alt="Social Media Icon">
+    </span>
+  </footer>
+</main>
+</body> 
